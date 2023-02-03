@@ -13,7 +13,7 @@
 } */
 
 #press{
-    background-color:#ff464c;
+    background-color:#e87182;
     /* padding: 5%; */
 
 }
@@ -23,19 +23,19 @@
     margin-left: 50px; 
 } */
 
-
-
 .press-logo{
-    width: 50%;
-    margin-left: 90px; 
-    margin-bottom: 50px;
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 60px;
 }
 
 
 #testimonials{
     padding: 7% 15%;
     text-align: center;
-    background-color: #ff464c;
+    background-color: #e87182;
 }
 
 .testimonial-img{
@@ -135,36 +135,43 @@ body{
     /* font-family: "Montserrat-Light"; */
 
 }
+.zindex{
+    position:relative;
+    padding-top: 90px;
+
+}
+.pic{
+    position: relative;
+    left: 80px;
+}
 
 .joke{
     padding-top: 10%;
 }
 
 #pricing{
-
     text-align: center;
-    
+    padding: 3% 7%;
 }
 
 .header{
-    margin-top: 100px;
+    margin: auto;
 }
 
 .pol{
-    margin-left: 90px;
+    margin: auto;
 }
 
 .iol{
-    margin-left: 60px;
+    margin: auto;
 }
 
 .uil{
-    margin-left: 50px;
-    margin-right: 20px;
+margin: auto;
 }
 
 #cta{
-    background-color: #ff464c;
+    background-color: #e87182;
     text-align: center;
     padding: 15% 7% 8%;
 }
@@ -183,3 +190,37 @@ body{
 .ouk{
     padding-left: 30px;
 }
+
+@media (max-width:990px){
+    .iphone{
+        position:relative;
+        transform: rotate(0);
+        padding-right:20px ;
+        right:120px
+    }
+    .mockup{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #title{
+        text-align: center;
+    } 
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
